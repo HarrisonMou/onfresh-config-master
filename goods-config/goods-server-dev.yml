@@ -25,9 +25,9 @@ spring:
 
   redis:
     database: 0
-    host: r-bp18t8ey2vi9v1qvgrpd.redis.rds.aliyuncs.com
+    host: 94.191.63.243
     port: 6379
-    password: aWF+LrGt2TkATw6lU9Gf9A==
+    password:
     timeout: 50000
     jedis:
       pool:
