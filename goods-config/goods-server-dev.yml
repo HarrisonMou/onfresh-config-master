@@ -57,14 +57,6 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 90000
-eureka:
-  instance:
-    prefer-ip-address: true
-    ip-address: 127.0.0.1
-  client:
-    service-Url:
-      #      defaultZone: http://172.16.172.58:8012/eureka/,http://172.16.172.58:8015/eureka/
-      defaultZone: http://localhost:8010/eureka/
 #ribbon的超时时间
 ribbon:
   ReadTimeout: 60000
