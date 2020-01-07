@@ -2,7 +2,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://94.191.63.243:3306/tt_easy_slave?useUnicode=true&autoReconnect=true
+    url: jdbc:mysql://192.168.204.200:3306/tt_easy_slave?useUnicode=true&autoReconnect=true
     username: root
     password: harrison@onfresh.cn
     druid:
@@ -24,7 +24,7 @@ spring:
       min-evictable-idle-time-millis: 3000
   redis:
     database: 0
-    host: 94.191.63.243
+    host: 192.168.204.200
     port: 6379
     password:
     timeout: 50000
